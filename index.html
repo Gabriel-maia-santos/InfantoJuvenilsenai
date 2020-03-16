@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infanto Juvenil</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="container">
+            <div>
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html" title="Acessar a página inicial do site">
+                    <img src="images/logo.png" alt="Logo do site e-players">
+                </a>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html" title="Acessar página inicial">início</a></li>
+                    <li><a href="#sobre" title="Acessar sessão sobre o projeto">sobre</a></li>
+                    <li><a href="#noticias" title="Acessar sessão d notícias">notícias</a></li>
+                    <li><a href="cadastro.html" title="Acessar página de cadastro">cadastre-se</a></li>
+                    <li><a href="login.html" title="Acessar página de login">login</a></li>
+                    <li>
+
+                    </li>
+                </ul>
+            </nav>
+            <nav class="menu">
+                <a href="#">
+                    <i class="fas fa-search" title="Realizar busca no site"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <img src="images/" alt="">
+
+
+
+    <script>
+        function botaoMenu() {
+            var m = document.getElementById("menu")
+            if (m.style.display == "block") {
+                m.style.display = "none";
+            } else {
+                m.style.display = "block";
+            }
+        }
+    </script>
 </body>
+
 </html>
