@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 465px;
+    margin: 0 auto;
+    background-color: #C8FCD8;
+    justify-content: space-evenly;
+}
+
+.Menu{
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    height: 136px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu ul li{
+    list-style: none;
+}
+
+.Menu a{
+    text-decoration: none;
+    color: black;
+    font-family: ;
+}
+
+.logo img{
+    width: 111px;
+    height: 113px;
+}
+
+.menu2 li{
+    list-style: none;
+}
+.menu2 a{
+    text-decoration: none;
+    color: black;
+    font-family: ;
+}
+.Menu-2{
+    display: flex;
+    align-items: center;
+}
+
+.Loja{
+    background-color:#FBE2FB;
+    height: 896px;
+    padding: 30px 0px;
+}
+.Carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.Carrinho img{
+    height: 69px;
+    color: #040506;
+}
+.Carrinho h1{
+    font-size: 31px;
+    color: #040506
+}
+
+.fundo{
+    padding: 30px 0px;
+    height: 1000px;
+    background-color: #C1F1FF;
+}
+
+.fundo img{
+    width: 465px;
+    height: 250.5px;
+}
+
+.desenho h2{
+    font-size: 31px;
+}
+.desenho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.desenho img{
+    width: 40px;
+    height: 40px;
+}
+
+.desenhar{
+    width: 70px;
+    height: 212.98;
+    background-color: #C8FCD8;
+}
+.lojinha{
+    display: flex;
+    justify-content: center;
+}
+
+#overflowTest {
+    border-color: black;
+    background: #FBE2FB;
+    color: white;
+    padding: 15px;
+    width: 300px;
+    height: 180px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  }
+
+  .Abadaloja{
+      display: flex;
+      justify-content: center;
+  }
+
+  .Abadaloja img{
+      padding: 10px 2px;
+      width: 30px;
+      height: 30px;
+  }
+
+  .ljimg img{
+      width: 465px;
+  }
+
+  .filtro img{
+      width: 30px;
+      height: 20px;
+  }
+
+  .barra{
+      display: flex;
+      flex-direction: column;
+  }
+  .barra img{
+    width: 70px;
+  }
+  .hamburguer img{
+      width: 40px;
+      height: 40px;
+  }
+
+  .texto h2{
+      font-size: 10px;
+  }
+
+  /*desenho*/
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  html {
+    box-sizing: border-box;
+    background: whitesmoke;
+    font-family: sans-serif;
+  }
+  canvas {
+    background: white;
+  }
+  
+  #paint-app {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  
+  /* For any shape tools that need a live preview */
+  .placeholder {
+    position:absolute;
+    z-index:999;
+  }
