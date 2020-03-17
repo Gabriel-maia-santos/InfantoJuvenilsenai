@@ -17,6 +17,7 @@
                 <img src="images/Capturar5.PNG" alt="Imagem de um giz para desenhar">
             </div>
         </div>
+        <div class="alinhar">
         <div class="desenhar">
             <div class="barra">
                 <div class="hamburguer">
@@ -30,11 +31,10 @@
   
         </div>
         <div id="paint-app"></div>
-    </main>
     <script>
    
 function createPaint(parent) {
-  var canvas = elt('canvas', {width: 500, height: 300});
+  var canvas = elt('canvas', {width: 395, height: 305});
   var cx = canvas.getContext('2d');
   var toolbar = elt('div', {class: 'toolbar'});
   
@@ -119,7 +119,7 @@ controls.tool = function(cx) {
     }
   });
   
-  return elt('span', null, 'Tool: ', select);
+  return elt('span', null, 'tipo: ', select);
 };
 
 // color module
@@ -131,7 +131,7 @@ controls.color = function(cx) {
     cx.fillStyle = input.value;
     cx.strokeStyle = input.value;
   });
-  return elt('span', null, 'Color: ', input);
+  return elt('span', null, 'Cores: ', input);
 };
 
 // brush size module
@@ -143,20 +143,20 @@ controls.brushSize = function(cx) {
   
   // build up a select group of size options
   sizes.forEach(function(size) {
-    select.appendChild(elt('option', {value: size}, size + ' pixels'));
+    select.appendChild(elt('option', {value: size}, size + ' Tamanho'));
   });
   
   // on change, set the new stroke thickness
   select.addEventListener('change', function() {
     cx.lineWidth = select.value;
   });
-  return elt('span', null, 'Brush size: ', select);
+  return elt('span', null, 'Tamanho : ', select);
 };
 
 // save
 controls.save = function(cx) {
   // MUST open in a new window because of iframe security stuff
-  var link = elt('a', {href: '/', target: '_blank'}, 'Save');
+  var link = elt('a', {href: '/', target: '_blank'}, 'Salvar');
   function update() {
     try {
       link.href = cx.canvas.toDataURL();
@@ -192,14 +192,14 @@ controls.openFile = function(cx) {
     });
     reader.readAsDataURL(input.files[0]);
   });
-  return elt('div', null, 'Open file: ', input);
+  return elt('div', null, 'Abrir Arquivo: ', input);
 };
 
 // open a URL
 controls.openURL = function(cx) {
   var input = elt('input', {type: 'text'});
-  var form = elt('form', null, 'Open URL: ', input, 
-                 elt('button', {type: 'submit'}, 'load'));
+  var form = elt('form', null, 'Carregar uma Url: ', input, 
+                 elt('button', {type: 'submit'}, 'Carregar'));
   form.addEventListener('submit', function(event) {
     event.preventDefault();
     loadImageURL(cx, form.querySelector('input').value);
@@ -474,5 +474,7 @@ createPaint(appDiv);
  ***********************************************************************/
 
     </script>
+  </div>
+</main>
 </body>
 </html>

@@ -28,7 +28,6 @@
 .Menu a{
     text-decoration: none;
     color: black;
-    font-family: ;
 }
 
 .logo img{
@@ -42,7 +41,6 @@
 .menu2 a{
     text-decoration: none;
     color: black;
-    font-family: ;
 }
 .Menu-2{
     display: flex;
@@ -71,7 +69,7 @@
 
 .fundo{
     padding: 30px 0px;
-    height: 1000px;
+    height: 850px;
     background-color: #C1F1FF;
 }
 
@@ -96,7 +94,7 @@
 
 .desenhar{
     width: 70px;
-    height: 212.98;
+    height: 50px;
     background-color: #C8FCD8;
 }
 .lojinha{
@@ -123,7 +121,7 @@
   .Abadaloja img{
       padding: 10px 2px;
       width: 30px;
-      height: 30px;
+      height: 40px;
   }
 
   .ljimg img{
@@ -156,11 +154,6 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  html {
-    box-sizing: border-box;
-    background: whitesmoke;
-    font-family: sans-serif;
-  }
   canvas {
     background: white;
   }
@@ -175,4 +168,13 @@
   .placeholder {
     position:absolute;
     z-index:999;
+  }
+
+  .toolbar{
+      width: 390px;
+      height: 63px;
+  }
+
+  .alinhar{
+      display: flex;
   }
