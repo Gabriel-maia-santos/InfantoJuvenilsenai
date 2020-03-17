@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.flex{
+.flex{ /* começo css meu diario */
     display: flex;
 }
 .containerdiario{
@@ -59,9 +59,57 @@
     width: 30%;
     margin-top: 30px;
     margin-left: 8px;
+} /* fim css meu diario */
+
+.titulopsi{ /* começo css mural psicologo */
+    font-weight: lighter;
+    text-align: center;
 }
+.muralpsi{
+    width: 100%;
+    margin-top: 2em;
+}
+.h2tools{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 1em;
+}
+.tools{
+    width: 100%;
+    height: 80px;
+    background-color: #FFF1FF;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+.tools img{
+    width: 40px;
+}
+.titlechat{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 1em;
+}
+.chatpsicologo{
+    width: 100%;
+    height: 290px;
+    background-color:#fff1ff;
+    margin-top: 1em;
+}
+.cliente img{
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cliente h3{
+    font-weight: lighter;
+    margin-top: 2em;
+    margin-left: 0.5em;
+}
+
 @media(min-width: 800px){
-    .containerdiario h2{
+    .containerdiario h2{ /* começo responsividade meu diario */
         margin-left: 400px;
     }
     .calendario{
@@ -75,10 +123,16 @@
     }
     .anote{
         font-size: 35px;
+    } /* fim responsividade meu diario */
+    .tools img{ /* começo responsividade mural psicologo */ 
+        width: 55px;
     }
+    .cliente img{
+        width: 8%;
+    } /* fim responsividade mural psicologo */  
 }    /* fim responsividade 800px */
 @media(min-width: 1366px){
-    .containerdiario h2{
+    .containerdiario h2{ /* começo responsividade meu diario */
         margin-left: 1000px;
     }
     .calendario img{
@@ -99,5 +153,12 @@
     }
     .info{
         height: 280px;
+    } /* fim responsividade meu diaro */
+    .muralpsi{
+        width: 70%;
+        margin-left: 200px;
+    }
+    .cliente h3{
+        font-size: 25px;
     }
 } /* fim responsividade 1366px */
