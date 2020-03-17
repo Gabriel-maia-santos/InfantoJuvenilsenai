@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-header{
+body{
+    background-color: #F6F5F2;
+}
+/* header{
     width: 100%;
     height: 100px;
     display: flex;
@@ -37,5 +40,115 @@ header ul{
 .container img{
     width: 100px;
     height: 100px;
+} */
+.banner img{
+    width: 80%;
+    height: 200px;
+    padding: 5em 3em;
+    
+}
+.secao{
+    display: flex;
+    
+}
+h2{
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
+.card{
+    width: 100px;
+    height: 230px;
+    padding: 2em 2em;
+}
+.card article{
+    text-align: center;
+    margin-top: 1.5em;
+}
+article p{
+    margin-top: 0.5em;
+
+}
+/* .menu{
+    margin-top: -250px;
+} */
+.caminho{
+    margin-top: -250px;
+    display: flex;
+    width: 430px;
+}
+.caminho p{
+    margin-top:55px ;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.caminho img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+/* footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 180px;
+    background-color: #C0FEDB;
+}
+.fundo_footer{
+    
+    height: 150px;
+     
+    text-decoration: none;
+    
 }
 
+.fundo_footer a{
+    color: black;
+    padding: 10px;
+}
+.fundo_footer ul{
+    width: 70px;
+    padding: 10px;
+}
+.fundo_footer li{
+    color: black;
+    margin-top: 10px;
+    list-style-type: none;
+    width: 70px;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: -200px;
+    
+}
+.VIP{
+    margin-left: 300px;
+    
+} */
+/* @media(min-width:461px){
+    .banner img{
+        height: 300px;
+        
+    }
+    .secao{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu img{
+        width: 100%;
+    }
+    .caminho img{
+        width: 300px;
+        height: 300px;
+        
+    }
+    .caminho p{
+       margin-left: 250px;
+    }
+
+} */
