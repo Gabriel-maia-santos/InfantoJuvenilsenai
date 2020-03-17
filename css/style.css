@@ -127,10 +127,11 @@ footer img{
     margin-left: 300px;
     
 } */
-/* @media(min-width:461px){
+@media(min-width:461px){
     .banner img{
         height: 300px;
-        
+        margin-left: 35px;
+       position: relative;
     }
     .secao{
         display: flex;
@@ -142,13 +143,21 @@ footer img{
     .menu img{
         width: 100%;
     }
+    .caminho{
+        width: 100%;
+    }
     .caminho img{
-        width: 300px;
-        height: 300px;
-        
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 850px;
+        left: 100px;
     }
     .caminho p{
-       margin-left: 250px;
+        width: 300px;
+        margin-top: 5px;
+       margin-left: 400px;
     }
+    
 
-} */
+}
