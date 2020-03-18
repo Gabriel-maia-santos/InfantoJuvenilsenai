@@ -26,6 +26,7 @@
 }
 .containermenu div a i{
     font-size: 30px;
+    margin-left: 1em;
 }
 .containermenu div{
     margin-top: 30px;
@@ -107,23 +108,6 @@
     width: 100%;
     margin-top: 2em;
 }
-.h2tools{
-    font-weight: lighter;
-    text-align: center;
-    font-size: 1.8em;
-    margin-top: 1em;
-}
-.tools{
-    width: 100%;
-    height: 80px;
-    background-color: #FFF1FF;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1em;
-}
-.tools img{
-    width: 40px;
-}
 .titlechat{
     font-weight: lighter;
     text-align: center;
@@ -177,9 +161,8 @@
     .anote{
         font-size: 35px;
     } /* fim responsividade meu diario */
-    .tools img{ /* começo responsividade mural psicologo */ 
-        width: 55px;
-    }
+    /* começo responsividade mural psicologo */ 
+    
     .cliente img{
         width: 8%;
     } /* fim responsividade mural psicologo */  
@@ -193,6 +176,9 @@
     }
     .iconeheaderu{
         width: 3%;
+    }
+    .chatpsicologo{
+        height: 410px;
     }
     .containerdiario h2{ /* começo responsividade meu diario */
         margin-left: 1000px;
