@@ -154,11 +154,6 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  html {
-    box-sizing: border-box;
-    background: whitesmoke;
-    font-family: sans-serif;
-  }
   canvas {
     background: white;
   }
