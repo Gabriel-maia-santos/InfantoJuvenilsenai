@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro da Criança</title>
+</head>
+
+
+<body>
+    <main>
+        <img class="fita" src="images/fita.png" alt="Imagem de uma fita azul escrita Cadastro">
+        <div class="icones">
+            <img src="images/usu.png" alt="ícone de usuário">
+            <img src="images/seta.png" alt="seta para direita">
+            
+            <div class="escolha">
+                <h2>Escolha seu ícone</h2>
+                <img src="images/menina.jpg" alt="icone de uma menina">
+                <input type="radio" name="sexo" id="feminino">
+                <img src="images/menino.png" alt="icone de uma menino">
+                <input type="radio" name="sexo" id="masculino">
+            </div>
+        </div>
+
+        <form action="" method="GET" class="form_cadastro">
+            <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nomepessoa" id="nome">
+            </div>
+            <div class="campo">
+                <label for="data">Data de Nascimento</label>
+                <input type="date" name="data" id="data" min="1900-01-01" max="2020-03-05">
+            </div>
+            <div class="campo">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="campo">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="campo">
+                <label for="confirma_senha">confirma a Senha</label>
+                <input type="password" name="confirma_senha" id="confirma_senha">
+            </div>
+        
+            <div class="campo">
+                <label for="celular">Celular</label>
+                <input type="text" name="celular" id="celular">
+            </div>
+
+            <div class="campo">
+                <button type="submit" class="btn gradient">Cadastrar</button>
+            </div>
+
+        
+</html>
