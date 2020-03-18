@@ -227,11 +227,14 @@ h1{
     h1{
         padding: 50px 0px;
     }
-    
+    .quadro{
+        display: flex;
+        align-items: center;
+    }
     .quadro img{
-        width: 85%;
-        height: 1000px;
-    margin-left: 150px;
+        width: 80%;
+        height: 850px;
+    margin-left: 190px;
 
     }
     .secao2 h2{
