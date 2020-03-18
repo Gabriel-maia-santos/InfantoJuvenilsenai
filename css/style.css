@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lobster', cursive;
 }
 
 .container{
@@ -42,16 +43,26 @@
     text-decoration: none;
     color: black;
 }
-.Menu-2{
-    display: flex;
-    align-items: center;
-}
-
-.Loja{
+body{
     background-color:#FBE2FB;
-    height: 896px;
+    height: 100%;
     padding: 30px 0px;
 }
+
+.bannerdesenho{
+width: 100%;
+height: 270px;
+background-image: url(../images/Capturar4.PNG);
+align-items: center;
+justify-content: center;
+display: flex;
+background-position: center;
+background-size: cover ;
+}
+.bannerdesenho h1{
+    z-index: 999;
+}
+
 .Carrinho{
     display: flex;
     align-items: center;
@@ -66,11 +77,15 @@
     font-size: 31px;
     color: #040506
 }
+.rosa{
+    background-color: #FBE2FB;
+}
 
+body{
+    background-color: #C1F1FF;
+}
 .fundo{
     padding: 30px 0px;
-    height: 1000px;
-    background-color: #C1F1FF;
 }
 
 .fundo img{
@@ -82,6 +97,7 @@
     font-size: 31px;
 }
 .desenho{
+    font-family: 'Lobster', cursive;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +110,7 @@
 
 .desenhar{
     width: 70px;
-    height: 212.98;
+    height: 50px;
     background-color: #C8FCD8;
 }
 .lojinha{
@@ -121,11 +137,23 @@
   .Abadaloja img{
       padding: 10px 2px;
       width: 30px;
-      height: 30px;
+      height: 40px;
+      height: 39px;
+  }
+  .acessorios h1{
+    font-family: 'Lobster', cursive;
   }
 
-  .ljimg img{
-      width: 465px;
+  .ljimg{
+      width: 100%;
+      height: 250px;
+      background-image: url(../images/Capturar.PNG);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-position: center;
+      background-size: cover ;
   }
 
   .filtro img{
@@ -146,7 +174,7 @@
   }
 
   .texto h2{
-      font-size: 10px;
+      font-size: 12px;
   }
 
   /*desenho*/
@@ -169,3 +197,79 @@
     position:absolute;
     z-index:999;
   }
+
+  .toolbar{
+      width: 390px;
+      height: 63px;
+  }
+
+  .alinhar{
+      display: flex;
+  }
+  .verde{
+      background-color: #C8FCD8;
+  }
+
+  /*Inicio Da Responsividade*/
+  /*Reponsividade: 800px*/
+  @media(min-width: 800px){
+      .bannerdesenho img{
+          width: 800px;
+          height: 300px;
+      }
+
+      .alinhar{
+          display: flex;
+          justify-content: center;
+          padding: 0px 100px;
+      }
+
+
+      .ljimg img{
+          width: 800px;
+          height: 300px;
+      }
+      #overflowTest {
+          width: 500px;
+          height: 200px;
+      }
+      .filtro img{
+          width: 60px;
+          height: 40px;
+      }
+      .Loja{
+          height: 800px;
+      }
+  }
+
+  /*Responsividade desktop*/
+
+  @media(min-width: 1200px){
+    #overflowTest {
+        width: 926px;
+        height: 582px;
+  }
+  .Abadaloja img{
+      width: 70px;
+      height: 92px;
+  }
+  .alinhar{
+      padding: 0px 280px;
+  }
+  .Carrinho h1{
+      font-size: 50px;
+  }
+  .ljimg h2{
+      font-size: 40px;
+  }
+}
+
+/*Responsividade 1920*/
+@media(min-width: 1920px){
+    .alinhar{
+        padding: 0px 600px;
+    }
+    .ljimg h2{
+        font-size: 50px;
+    }
+}
