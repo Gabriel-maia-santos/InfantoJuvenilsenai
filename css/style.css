@@ -129,8 +129,14 @@
     margin-top: 2em;
     margin-left: 0.5em;
 }
+.navmenu{
+    display: none;
+}
 
 @media(min-width: 800px){
+    .navmenu{
+        display: none;
+    }
     .logo{
         width: 100px;
         margin-left: 350px;
@@ -208,6 +214,24 @@
     }
     .cliente h3{
         font-size: 25px;
+    }
+    .containermenu div a i{
+        display: none;
+    }
+    .navmenu{
+        width: 400px;
+
+    }
+    .navmenu ul{
+        display: flex;
+        padding: 1em;
+        justify-content: space-around;
+    }
+    .navmenu ul li{
+        font-size: 20px;
+    }
+    .navmenu{
+        display: inline;
     }
 } /* fim responsividade 1366px */
 
