@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Página Cadastro de Psicólgo</title>
 </head>
+
 <body>
     <main>
-        <img src="images/fita azul.png" alt="">
+        <img class="fita" src="images/fita.png" alt="Imagem de uma fita azul escrita Cadastro">
+        <div class="icones">
+            <img src="images/usu.png" alt="ícone de usuário">
+            <div>
+                <h2>Aviso</h2>
+                <p>Sua conta será analisada...</p>
+            </div>
+        </div>
+
+        <form action="" method="GET" class="form_cadastro">
+            <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nomepessoa" id="nome">
+            </div>
+            <div class="campo">
+                <label for="data">Data de Nascimento</label>
+                <input type="date" name="data" id="data" min="1900-01-01" max="2020-03-05">
+            </div>
+            <div class="campo">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="campo">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="campo">
+                <label for="confirma_senha">confirma a Senha</label>
+                <input type="password" name="confirma_senha" id="confirma_senha">
+            </div>
+        
+            <div class="campo">
+                <label for="celular">Celular</label>
+                <input type="text" name="celular" id="celular">
+            </div>
+            <div class="campo">
+                <label for="endereço">Endereço</label>
+                <input type="text" name="endereço" id="endereço">
+            </div>
+            <div class="campo">
+                <label for="especializacao">Especialização</label>
+                <input type="text" name="especializacao" id="especializacao">
+            </div>
+            <div class="campo2">
+                <label for="img">Comprovantes</label>
+                <input type="file" name="comprovantes" id="comprovantes" accept="image/*">
+                <button type="submit" class="btn gradient">Enviar</button>
+            </div>
+            <div class="campo2">
+                <label for="img">Currículo</label>
+                <input type="file" name="curriculo" id="curriculo" accept="image/*">
+                <button type="submit" class="btn gradient">Enviar</button>
+            </div>
+
+
+            <div class="campo">
+                <button type="submit" class="btn gradient">Cadastrar</button>
+            </div>
+
+        </form>
+
     </main>
 </body>
+
 </html>

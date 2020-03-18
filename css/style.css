@@ -213,3 +213,36 @@
 
 /*Página cadastro psicólogo*/
 
+body{
+    background-color: #FBE2FB;
+}
+
+.fita{
+    height: 350px;
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    padding: 30px;
+    align-items: center;
+}
+.icones img{
+    width: 100px;
+}
+.icones p{
+    width: 70%;
+}
+.campo{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+    flex-direction: column;
+   
+}
+.campo2{
+    margin: 0.5em;
+}
+
+
+
