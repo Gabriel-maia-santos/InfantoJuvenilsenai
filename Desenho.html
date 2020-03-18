@@ -417,19 +417,6 @@ function isSameColor(data, point1, point2) {
   return true;
 }
 
-// end flood fill helpers
-
-// NOTE: in my first attempt, I was creating Pixel objects and pushing them
-// to isPainted instead of Booleans; that wasn't a great idea...
-// I suspect there was too much initialization for the browser to handle
-// and it choked fatally :(
-
-// I think I would still like to see this done with a Pixel object, if not
-// merely for the ability to extend it to done some more advanced things
-
-/**
- * paints all adjacent matching pixels
- */
 tools["Flood Fill"] = function(event, cx) {
   var imageData = cx.getImageData(0, 0, cx.canvas.width, cx.canvas.height),
       // get sample point at current position, {x: int, y: int}
@@ -466,16 +453,6 @@ tools["Flood Fill"] = function(event, cx) {
 // initialize the app
 var appDiv = document.querySelector('#paint-app');
 createPaint(appDiv);
-
-/************************************************************************
- * resources
- *
- * Canvas Rendering Context 2D API
- * https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
- *
- * Eloquent JavaScript Ch 19, Project: A Paint Program
- * http://eloquentjavascript.net/19_paint.html
- ***********************************************************************/
 
     </script>
   </div>
