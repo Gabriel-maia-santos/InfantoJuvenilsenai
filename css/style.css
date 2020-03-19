@@ -43,7 +43,7 @@
     text-decoration: none;
     color: black;
 }
-body{
+.rosa{
     background-color:#FBE2FB;
     height: 100%;
     padding: 30px 0px;
@@ -208,6 +208,64 @@ body{
   }
   .verde{
       background-color: #C8FCD8;
+  }
+  .container{
+      width: 80%;
+      min-width: 465px;
+      margin: 0 auto;
+      justify-content: space-around;
+      height: 206px;
+      flex-wrap: nowrap;
+    }
+    nav ul{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: flex start;
+        list-style: none;
+        align-items: center;
+    }
+    
+    nav a{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        padding: 7px;
+        font-size: 15px;
+  }
+  footer nav li{
+      margin-bottom: 1em;
+  }
+  .footer-img img{
+      width: 70px;
+      height: 70px;
+      align-items: center;
+  }
+  .footer-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .botão input{
+        width: 90px;
+
+    }
+    .form{
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        padding: 10px 0px
+    }
+    .icon img{
+        height: 40px;
+        width: 40px;
+    }
+    .icon{
+        height: 40px;
+        display: flex;
+        justify-content: flex-end;    
   }
 
   /*Inicio Da Responsividade*/
