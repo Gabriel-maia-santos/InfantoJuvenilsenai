@@ -173,7 +173,7 @@
         width: 8%;
     } /* fim responsividade mural psicologo */  
 }    /* fim responsividade 800px */
-@media(min-width: 1366px){
+@media(min-width: 1200px){
     .logo{
         padding-left: 280px;
     }
@@ -200,7 +200,7 @@
     }
     .sentimento{
         height: 400px;
-        width: 1310px;
+        width: 1140px;
     }
     .info img{
         width: 15%;
@@ -658,7 +658,7 @@ h1{
     }
     
 }
-@media(min-width:1366px){
+@media(min-width:1200px){
     h1{
         padding: 50px 0px;
     }
@@ -720,7 +720,7 @@ body{
 }
 /* fim responsividade 800px */
 
-@media(min-width: 1366px){
+@media(min-width: 1200px){
     .fita{
         height: 800px;
         margin-left: 80px;
@@ -763,7 +763,7 @@ body{
 }
 /* fim responsividade 800px */
 
-@media(min-width: 1366px){
+@media(min-width: 1200px){
     .icones{
         display: flex;
         justify-content: space-evenly;
@@ -777,4 +777,275 @@ body{
         font-size: 40px;
     }
     
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 465px;
+    margin: 0 auto;
+    background-color: #C8FCD8;
+    justify-content: space-evenly;
+}
+
+.Menu{
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    height: 136px;
+    align-items: center;
+    justify-content: center;
+}
+.Menu ul li{
+    list-style: none;
+}
+.Menu a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    width: 111px;
+    height: 113px;
+}
+.menu2 li{
+    list-style: none;
+}
+.menu2 a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color:#FBE2FB;
+    height: 100%;
+}
+
+.bannerdesenho{
+width: 100%;
+height: 270px;
+background-image: url(../images/Capturar4.PNG);
+align-items: center;
+justify-content: center;
+display: flex;
+background-position: center;
+background-size: cover ;
+}
+.bannerdesenho h1{
+    z-index: 999;
+}
+.Carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.Carrinho img{
+    height: 69px;
+    color: #040506;
+}
+.Carrinho h1{
+    font-size: 31px;
+    color: #040506
+}
+.rosa{
+    background-color: #FBE2FB;
+}
+body{
+    background-color: #C1F1FF;
+}
+.fundo img{
+    width: 465px;
+    height: 250.5px;
+}
+.desenho h2{
+    font-size: 31px;
+}
+.desenho{
+    font-family: 'Lobster', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.desenho img{
+    width: 40px;
+    height: 40px;
+}
+.desenhar{
+    width: 70px;
+    height: 50px;
+    background-color: #C8FCD8;
+}
+.lojinha{
+    display: flex;
+    justify-content: center;
+}
+#overflowTest {
+    border-color: black;
+    background: #FBE2FB;
+    color: white;
+    padding: 15px;
+    width: 300px;
+    height: 180px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  }
+  .Abadaloja{
+      display: flex;
+      justify-content: center;
+  }
+  .Abadaloja img{
+      padding: 10px 2px;
+      width: 30px;
+      height: 40px;
+      height: 39px;
+  }
+  .acessorios h1{
+    font-family: 'Lobster', cursive;
+  }
+  .ljimg{
+      width: 100%;
+      height: 250px;
+      background-image: url(../images/Capturar.PNG);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-position: center;
+      background-size: cover ;
+  }
+  .filtro img{
+      width: 30px;
+      height: 20px;
+  }
+  .barra{
+      display: flex;
+      flex-direction: column;
+  }
+  .barra img{
+    width: 70px;
+  }
+  .hamburguer img{
+      width: 40px;
+      height: 40px;
+  }
+  .texto h2{
+      font-size: 12px;
+  }
+  .Loja{
+      height: 720px;
+  }
+  /*desenho*/
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  canvas {
+    background: white;
+  }
+  
+  #paint-app {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  
+  /* For any shape tools that need a live preview */
+  .placeholder {
+    position:absolute;
+    z-index:999;
+  }
+  .toolbar{
+      width: 390px;
+      height: 63px;
+  }
+  .alinhar{
+      display: flex;
+  }
+  .verde{
+      background-color: #C8FCD8;
+  }
+  /*Inicio Da Responsividade*/
+  /*Reponsividade: 800px*/
+  @media(min-width: 800px){
+      .container{
+          min-width: 800px;
+      }
+      .bannerdesenho img{
+          width: 800px;
+          height: 300px;
+      }
+      .alinhar{
+          display: flex;
+          justify-content: center;
+          padding: 0px 100px;
+      }
+      .ljimg img{
+          width: 800px;
+          height: 300px;
+      }
+      #overflowTest {
+          width: 500px;
+          height: 200px;
+      }
+      .filtro img{
+          width: 60px;
+          height: 40px;
+      }
+      .Loja{
+          height: 800px;
+      }
+  }
+  /*Responsividade desktop*/
+  @media(min-width: 1200px){
+    .Loja{
+        height: 1119px;
+    }
+      .container{
+          min-width: 1200px;
+      }
+    #overflowTest {
+        width: 926px;
+        height: 500px;
+  }
+  .Abadaloja img{
+      width: 70px;
+      height: 92px;
+  }
+  .alinhar{
+      padding: 0px 280px;
+  }
+  .Carrinho h1{
+      font-size: 50px;
+  }
+  .ljimg h2{
+      font-size: 40px;
+  }
+}
+/*Responsividade 1920*/
+@media(min-width: 1920px){
+    .alinhar{
+        padding: 0px 600px;
+    }
+    .ljimg h2{
+        font-size: 50px;
+    }
+}
+
+.bannerdesenho h1{
+    font-size: 30px;
+}
+
+.fundo{
+    padding: 50px;
+}
+
+.rosa{
+    padding: 0px;
+    height: 100%;
 }
