@@ -6,7 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Página Cadastro de Psicólgo</title>
+    <script src="https://kit.fontawesome.com/def40ecc6c.js" crossorigin="anonymous"></script>
 </head>
+<header class="cabecalho">
+    <div class="containermenu">
+        <div>
+            <a href="#" onclick="botaoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a href="index.html" title="Acessar a página inicial do site">
+            </a>
+        </div>
+        <div class="navmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Desenho</a></li>
+                <li><a href="#">Diário</a></li>
+                <li><a href="#">Cadastro</a></li>
+                <li><a href="#">Mural</a></li>
+            </ul>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" title="Acessar Página inicial">Home</a></li>
+                <li><a href="#" title="Acessar sessão sobre o projeto">Desenho</a></li>
+                <li><a href="#" title="Acessar sessão de notícias">Diário</a></li>
+                <li><a href="#" title="Acessar página de cadastro">Cadastro</a></li>
+                <li><a href="#" title="Acessar página de login">login</a></li>
+                <li>
+                </li>
+            </ul>
+        </nav>
+        <img class="logo" src="images/logo.png" alt="logo do site">
+        <div class="iconesheader">
+        <img class="iconeheaderc" src="images/carrinho-inteligente.png" alt="carrinho de compras">
+        <img class="iconeheaderu" src="images/usu.png" alt="icone de usuário">
+        </div>
+    </div>
+</header>
 
 <body>
     <main>
@@ -73,5 +110,15 @@
 
     </main>
 </body>
+<script>
+    function botaoMenu() {
+        var m = document.getElementById("menu");
+        if (m.style.display == "block") {
+            m.style.display = "none";
+        } else {
+            m.style.display = "block";
+        }
+    }
+</script>
 
 </html>
