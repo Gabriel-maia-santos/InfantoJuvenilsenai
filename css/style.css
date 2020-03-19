@@ -1,47 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: #F6F5F2;
     font-family: 'Lobster', cursive;
 }
 
-.container{
+
+.banner img{
+    width: 80%;
+    height: 200px;
+    
+    padding: 5em 3em;
+    
+}
+.secao{
     display: flex;
+    
+}
+h2{
+    text-align: center;
+}
+.card img{
     width: 100%;
-    max-width: 465px;
-    margin: 0 auto;
-    background-color: #C8FCD8;
-    justify-content: space-evenly;
 }
-
-.Menu{
-    width: 100%;
-    max-width: 425px;
-    display: flex;
-    height: 136px;
-    align-items: center;
-    justify-content: center;
+.card{
+    width: 100px;
+    height: 230px;
+    padding: 2em 2em;
 }
-
-.Menu ul li{
-    list-style: none;
+.card article{
+    text-align: center;
+    margin-top: 1.5em;
 }
+article p{
+    margin-top: 0.5em;
 
-.Menu a{
+}
+.card a{
     text-decoration: none;
     color: black;
 }
-
-.logo img{
-    width: 111px;
-    height: 113px;
+/* .menu{
+    margin-top: -250px;
+} */
+.caminho{
+    margin-top: -250px;
+    display: flex;
+    width: 430px;
 }
-
-.menu2 li{
-    list-style: none;
+.menu img{
+    width: 100%;
 }
-.menu2 a{
-    text-decoration: none;
-    color: black;
+.caminho p{
+    margin-top:65px ;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14px;
 }
 .rosa{
     background-color:#FBE2FB;
@@ -49,73 +68,156 @@
     padding: 30px 0px;
 }
 
-.bannerdesenho{
-width: 100%;
-height: 270px;
-background-image: url(../images/Capturar4.PNG);
-align-items: center;
-justify-content: center;
-display: flex;
-background-position: center;
-background-size: cover ;
-}
-.bannerdesenho h1{
-    z-index: 999;
+ .caminho img{
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
-.Carrinho{
+@media(min-width:800px){
+    .banner img{
+        height: 300px;
+        margin-left: 20px;
+       
+    }
+    .secao{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu img{
+        width: 100%;
+    }
+    .card a{
+        text-decoration: none;
+        color: black;
+    }
+    .caminho{
+        width: 100%;
+    }
+    .caminho img{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 850px;
+        left: 60px;
+    }
+    .caminho p{
+        width: 300px;
+        margin-top: 5px;
+       margin-left: 400px;
+    }
+    
+
+}
+@media (min-width:1366px){
+    .banner{
+        display: flex;
+        justify-content: center;
+    }
+.banner img{
+    width: 60%;
+    height: 600px;
+    
+}
+.card{
+    width: 20%;
+    height: 400px;
+    
+}
+.card img{
+    width: 90%;
+    height: 400px;
+    margin-left: 40px;
+}
+.secao{
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+.card p{
+    font-size: 25px;
+}
+.card h3 a{
+    font-size: 30px;
+   text-decoration: none;
+   color: #000000;
+}
+h2{
+    font-size: 60px;
+    margin-top: 100px;
+}
+.mural:hover{
+    text-shadow: 0px 0px 5px #55b47e;
+    color: #55b47e;
+}
+.diario:hover{
+    text-shadow: 0px 0px 5px #d54dce;
+    color: #d54dce ;
+}
+.compras:hover{
+    text-shadow: 0px 0px 5px #d54dce;
+    color: #d54dce ;
+}
+.menu{
+    width: 100%;
+    height: 740px;
+    margin-top: 200px;
+   }
+   .caminho{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    
+   }
+.caminho img{
+    width: 600px;
+    height: 600px;
+top: 2050px;
+margin-left: 500px;
+}
+.caminho p{
+    width: 500px;
+    margin-top: -750px;
+   font-size: 40px;
+  
+}
+    
+}
+/*Início da página Mural*/
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.secao2{
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+}
+.secao2 h2{
     padding: 30px 0px;
 }
-.Carrinho img{
-    height: 69px;
-    color: #040506;
+.quadro{
+    width: 100%;
+    height: 300px;
+    
 }
-.Carrinho h1{
-    font-size: 31px;
-    color: #040506
+.quadro img{
+    width: 70%;
+    height: 100%;
+    margin-left: 70px;
 }
-.rosa{
-    background-color: #FBE2FB;
-}
-
-body{
-    background-color: #C1F1FF;
-}
-.fundo{
-    padding: 30px 0px;
-}
-
-.fundo img{
-    width: 465px;
-    height: 250.5px;
-}
-
-.desenho h2{
-    font-size: 31px;
-}
-.desenho{
-    font-family: 'Lobster', cursive;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 0px;
-}
-.desenho img{
-    width: 40px;
-    height: 40px;
-}
-
-.desenhar{
-    width: 70px;
-    height: 50px;
-    background-color: #C8FCD8;
-}
-.lojinha{
+.lapis{
     display: flex;
     justify-content: center;
+}
+.lapis img{
+    width: 30px;
+    height: 30px;
+    padding: 0.6em;
 }
 
 #overflowTest {
@@ -301,33 +403,39 @@ body{
   }
 
   /*Responsividade desktop*/
+@media(min-width:800px){
+    .quadro img{
+        height: 400px;
+    margin-left: 127px;
 
-  @media(min-width: 1200px){
-    #overflowTest {
-        width: 926px;
-        height: 582px;
-  }
-  .Abadaloja img{
-      width: 70px;
-      height: 92px;
-  }
-  .alinhar{
-      padding: 0px 280px;
-  }
-  .Carrinho h1{
-      font-size: 50px;
-  }
-  .ljimg h2{
-      font-size: 40px;
-  }
-}
-
-/*Responsividade 1920*/
-@media(min-width: 1920px){
-    .alinhar{
-        padding: 0px 600px;
     }
-    .ljimg h2{
-        font-size: 50px;
+    .secao2 h2{
+        margin-top: 100px;
+    }
+    .lapis img{
+        width: 40px;
+        height: 40px;
+        padding: 1.2em;
+    }
+    
+}
+@media(min-width:1366px){
+    h1{
+        padding: 50px 0px;
+    }
+    
+    .quadro img{
+        width: 80%;
+        height: 850px;
+    margin-left: 190px;
+
+    }
+    .secao2 h2{
+        margin-top: 800px;
+    }
+    .lapis img{
+        width: 60px;
+        height: 60px;
+        padding: 3em;
     }
 }
