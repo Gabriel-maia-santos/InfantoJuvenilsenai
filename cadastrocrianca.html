@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Página Cadastro de Psicólgo</title>
+    <title>Cadastro da Criança</title>
 </head>
+
 
 <body>
     <main>
         <img class="fita" src="images/fita.png" alt="Imagem de uma fita azul escrita Cadastro">
         <div class="icones">
             <img src="images/usu.png" alt="ícone de usuário">
-            <div>
-                <h2>Aviso</h2>
-                <p>Sua conta será analisada...</p>
+            <img src="images/seta.png" alt="seta para direita">
+            
+            <div class="escolha">
+                <h2>Escolha seu ícone</h2>
+                <img src="images/menina.jpg" alt="icone de uma menina">
+                <input type="radio" name="sexo" id="feminino">
+                <img src="images/menino.png" alt="icone de uma menino">
+                <input type="radio" name="sexo" id="masculino">
             </div>
         </div>
 
@@ -45,33 +50,10 @@
                 <label for="celular">Celular</label>
                 <input type="text" name="celular" id="celular">
             </div>
-            <div class="campo">
-                <label for="endereço">Endereço</label>
-                <input type="text" name="endereço" id="endereço">
-            </div>
-            <div class="campo">
-                <label for="especializacao">Especialização</label>
-                <input type="text" name="especializacao" id="especializacao">
-            </div>
-            <div class="campo2">
-                <label for="img">Comprovantes</label>
-                <input type="file" name="comprovantes" id="comprovantes" accept="image/*">
-                <button type="submit" class="btn gradient">Enviar</button>
-            </div>
-            <div class="campo2">
-                <label for="img">Currículo</label>
-                <input type="file" name="curriculo" id="curriculo" accept="image/*">
-                <button type="submit" class="btn gradient">Enviar</button>
-            </div>
 
-
-            <div class="campo3">
+            <div class="campo">
                 <button type="submit" class="btn gradient">Cadastrar</button>
             </div>
 
-        </form>
-
-    </main>
-</body>
-
-</html>
+        
+</html> 

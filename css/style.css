@@ -129,8 +129,14 @@
     margin-top: 2em;
     margin-left: 0.5em;
 }
+.navmenu{
+    display: none;
+}
 
 @media(min-width: 800px){
+    .navmenu{
+        display: none;
+    }
     .logo{
         width: 100px;
         margin-left: 350px;
@@ -208,6 +214,24 @@
     }
     .cliente h3{
         font-size: 25px;
+    }
+    .containermenu div a i{
+        display: none;
+    }
+    .navmenu{
+        width: 400px;
+
+    }
+    .navmenu ul{
+        display: flex;
+        padding: 1em;
+        justify-content: space-around;
+    }
+    .navmenu ul li{
+        font-size: 20px;
+    }
+    .navmenu{
+        display: inline;
     }
 } /* fim responsividade 1366px */
 
@@ -654,3 +678,106 @@ h1{
         padding: 3em;
     }
 }
+body{
+    background-color: #FBE2FB;
+}
+
+.fita{
+    height: 350px;
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    padding: 30px;
+    align-items: center;
+}
+.icones img{
+    width: 100px;
+}
+.icones p{
+    width: 70%;
+}
+.campo{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+    flex-direction: column;
+   
+}
+.campo2{
+    margin: 0.5em;
+}
+
+@media(min-width: 800px){
+    .fita{
+        height: 500px;
+        margin-left: 20px;
+    }
+    .icones{
+        margin-top: -200px;
+    }
+}
+/* fim responsividade 800px */
+
+@media(min-width: 1366px){
+    .fita{
+        height: 800px;
+        margin-left: 80px;
+    }
+    .icones{
+        display: flex;
+        justify-content: space-around;
+        font-size: 2.5em;
+    }
+    .icones img{
+        width: 200px;
+    }
+    .campo{
+        height: 4em;
+        width: 80%;
+    }
+    .campo3{
+        margin-left: 5px;
+    }
+}
+/* fim responsividade 1366px */
+
+
+/* pag cadastro criança */
+
+.escolha img{
+    width: 60px;
+}
+
+@media(min-width: 800px){
+    .fita{
+        margin-left: 40px;
+    }
+    .icones{
+        margin-left: 35px;
+    }
+    .escolha img{
+        width: 90px;
+    }
+}
+/* fim responsividade 800px */
+
+@media(min-width: 1366px){
+    .icones{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 50px;
+    }
+    .icones img{
+        width: 120px;
+        align-items: center;
+    }
+    .escolha h2{
+        font-size: 40px;
+    }
+    
+}
+
+
+
